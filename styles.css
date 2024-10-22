@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+}
+
+.header-container {
+    background-color: #1F2937;
+    padding: 16px;
+    height: 400px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+li, .para {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right-align {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-texts-image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.header-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.awesome {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-image {
+    width: 600px;
+    height: 200px;
+    background-color: gray;
+}
+
+.sign-up {
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.rando-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.border {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+.item {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.caption {
+    width: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.quote-bg {
+    height: 450px;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote {
+    text-align: justify;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 800;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    width: 800px;
+    height: 100px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.button > .sign-up {
+    border: 2px solid #F9FAF8;
+}
+
+.action {
+    font-weight: 700;
+}
+
+.call-text {
+    color: #F9FAF8;
+}
+
+.footer {
+    height: 50px;
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
